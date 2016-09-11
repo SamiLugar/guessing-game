@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+
+    <!-- Bootstrap and CSS here-->
+    <link rel ="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel ="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+  </head>
+  <body>
+      <div id='white'></div>
+      <div id='app' class="container col-md-12 col-sm-12">
+
+        <div id='headers' class="center">
+          <h1>the guessing game</h1>
+          <p>guess a number between 1 and 100 </p>
+        </div>
+
+        <div id='main' class="center">
+
+          <div id='input-parent'>
+            <form action="">
+              <input id="player-input" maxlength="3" autofocus=autofocus type="text" placeholder="#"></input>
+            </form>
+            <button class="btn" id="submit">guess</button>
+          </div>
+
+          <div id='guesses'>
+            <h4>previous guesses</h4>
+            <div>
+              <ul id="guess-list">
+                <li class="guess" id="g1">-</li>
+                <li class="guess" id="g2">-</li>
+                <li class="guess" id="g3">-</li>
+                <li class="guess" id="g4">-</li>
+                <li class="guess" id="g5">-</li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="menu-btns">
+
+              <button class="btn menu-btn" id="reset" type="reset">reset</button>
+
+              <button class="btn menu-btn" id="hint" type="hint">hint</button>
+
+          </div>
+        </div>
+      </div>
+
+
+    <div id='footer' class="center">
+        <div class="container">
+          <div class='col-md-4 col-sm-4 image-responsive'>
+            <img src='fa-logo@2x.png'></img>
+          </div>
+
+          <div class="col-md-4 col-sm-4">
+            <p id="about">Project by Sami Lugar</p>
+          </div>
+
+          <div class="col-md-4 col-sm-4 image-responsive">
+            <a href="www.gracehopper.com"><img src='gh-logo-temp.png'></img></a>
+          </div>
+
+
+        </div>
+    </div>
+</div>
+
+  <script src= "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="GuessingGame.js"></script>
+  </body>
+</html>

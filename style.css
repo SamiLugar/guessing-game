@@ -1,0 +1,130 @@
+html {
+  box-sizing: 'border-box';
+}
+
+.center {
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Bungee';
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+  }
+
+img {
+    display: inline;
+    height: 50px;
+    width: auto;
+  }
+
+body {
+  font-family: monospace;
+  color: #404040;
+  background-image: url('ca-bw-1.jpg');
+  background-position: top;
+  background-size: 2880px;
+  background-repeat: no-repeat;
+}
+
+li {
+  display: inline;
+}
+
+input {
+  text-align: center;
+  font-size: 48px;
+}
+
+.container {
+  font-family: sans-serif;
+
+}
+
+#app::before {
+  position: relative;
+
+}
+
+#app {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: monospace;
+}
+
+#white {
+  background-color: rgba(256,256,256, .7);
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+#headers {
+  margin-bottom: 50px;
+}
+
+#footer {
+      width: 100%;
+      background-color: #f0f0f0;
+      position: fixed;
+      bottom: 0;
+      font-family: monospace;
+      padding: 5px;
+  }
+
+#about {
+   font-family: monospace;
+   margin-top: 15px; <!--- change to math -->
+ }
+
+
+#input-parent {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#player-input {
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+  border: 4px solid #404040;
+}
+
+#guesses{
+
+}
+
+#submit {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  background-color: #cc6666;
+  position: relative;
+  left: 57px;
+  top: -55px;
+}
+
+#guess-list {
+  padding: 15px;
+  margin: 10px;
+}
+
+.guess {
+  border: 3px solid #404040;
+  border-radius: 4px;
+  margin: 5px;
+  font-size: 18px;
+  padding: 10px 15px;
+  background-color: white;
+}
+
+.menu-btn {
+  background-color: #a6a6a6;
+}
